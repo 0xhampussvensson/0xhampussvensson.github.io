@@ -78,8 +78,7 @@ const Hero = () => {
               </Button>
             </a>
           </motion.div>
-
-          <Link to="/thesis" className="w-full">
+          <a href="mailto:hampus.svensson@outlook.com">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -89,14 +88,14 @@ const Hero = () => {
               <div className="text-center sm:text-left">
                 <p className="text-gray-700 font-medium">
                   Interested in my Master's thesis on nuclear district heating?
-                </p>
-                <p className="text-gray-500 text-sm mt-1">
-                  Explore the full analysis and results.
+                  <p className="text-gray-500 text-sm mt-1 ">
+                    Contact me via email!
+                  </p>
                 </p>
               </div>
               <ExternalLink className="w-6 h-6 text-blue-600" />
             </motion.div>
-          </Link>
+          </a>
         </div>
       </section>
     </>

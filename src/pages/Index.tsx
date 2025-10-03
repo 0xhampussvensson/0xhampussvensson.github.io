@@ -387,14 +387,8 @@ const Index = () => {
                 <ProjectCard
                   title="Techno-economic Analysis Toolkit"
                   description="Modeling framework to evaluate district heating scenarios with sensitivity analyses and visual reporting."
+                  href="/thesis"
                   tags={["Python", "Energy Systems", "Modeling"]}
-                />
-              </Reveal>
-              <Reveal>
-                <ProjectCard
-                  title="QA Tracking Dashboard"
-                  description="Lightweight dashboard to log controls, spot defect patterns, and surface insights for process improvements."
-                  tags={["Data", "Quality", "Visualization"]}
                 />
               </Reveal>
             </div>
