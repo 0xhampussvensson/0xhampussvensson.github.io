@@ -158,56 +158,6 @@ const Index = () => {
               <Accordion type="single" collapsible className="w-full space-y-4">
                 {" "}
                 <AccordionItem
-                  value="saab"
-                  className="border border-border rounded-lg px-6 hover:shadow-elegant transition-all duration-300"
-                >
-                  {" "}
-                  <AccordionTrigger className="hover:no-underline">
-                    {" "}
-                    <div className="flex items-center justify-between w-full mr-4">
-                      {" "}
-                      <div className="text-left">
-                        {" "}
-                        <h3 className="font-medium">
-                          Quality Assurance Technician — SAAB, Järfälla
-                        </h3>{" "}
-                        <p className="text-sm text-muted-foreground">
-                          2024 – present
-                        </p>{" "}
-                      </div>{" "}
-                      <Badge variant="secondary" className="ml-4">
-                        Current
-                      </Badge>{" "}
-                    </div>{" "}
-                  </AccordionTrigger>{" "}
-                  <AccordionContent className="pt-4">
-                    {" "}
-                    <div className="space-y-3">
-                      {" "}
-                      <p className="text-muted-foreground">
-                        Performing quality controls and collaborating with
-                        engineering teams to identify and resolve manufacturing
-                        defects, contributing to process improvements.
-                      </p>{" "}
-                      <div className="flex flex-wrap gap-2">
-                        {" "}
-                        <Badge variant="outline" className="text-xs">
-                          Quality Control
-                        </Badge>{" "}
-                        <Badge variant="outline" className="text-xs">
-                          Process Improvement
-                        </Badge>{" "}
-                        <Badge variant="outline" className="text-xs">
-                          Team Collaboration
-                        </Badge>{" "}
-                        <Badge variant="outline" className="text-xs">
-                          Manufacturing
-                        </Badge>{" "}
-                      </div>{" "}
-                    </div>{" "}
-                  </AccordionContent>{" "}
-                </AccordionItem>{" "}
-                <AccordionItem
                   value="vattenfall"
                   className="border border-border rounded-lg px-6 hover:shadow-elegant transition-all duration-300"
                 >
@@ -248,6 +198,53 @@ const Index = () => {
                         </Badge>{" "}
                         <Badge variant="outline" className="text-xs">
                           Research
+                        </Badge>{" "}
+                      </div>{" "}
+                    </div>{" "}
+                  </AccordionContent>{" "}
+                </AccordionItem>{" "}
+                <AccordionItem
+                  value="saab"
+                  className="border border-border rounded-lg px-6 hover:shadow-elegant transition-all duration-300"
+                >
+                  {" "}
+                  <AccordionTrigger className="hover:no-underline">
+                    {" "}
+                    <div className="flex items-center justify-between w-full mr-4">
+                      {" "}
+                      <div className="text-left">
+                        {" "}
+                        <h3 className="font-medium">
+                          Quality Assurance Technician — SAAB, Järfälla
+                        </h3>{" "}
+                        <p className="text-sm text-muted-foreground">
+                          2024 – 2025
+                        </p>{" "}
+                      </div>{" "}
+                    </div>{" "}
+                  </AccordionTrigger>{" "}
+                  <AccordionContent className="pt-4">
+                    {" "}
+                    <div className="space-y-3">
+                      {" "}
+                      <p className="text-muted-foreground">
+                        Performing quality controls and collaborating with
+                        engineering teams to identify and resolve manufacturing
+                        defects, contributing to process improvements.
+                      </p>{" "}
+                      <div className="flex flex-wrap gap-2">
+                        {" "}
+                        <Badge variant="outline" className="text-xs">
+                          Quality Control
+                        </Badge>{" "}
+                        <Badge variant="outline" className="text-xs">
+                          Process Improvement
+                        </Badge>{" "}
+                        <Badge variant="outline" className="text-xs">
+                          Team Collaboration
+                        </Badge>{" "}
+                        <Badge variant="outline" className="text-xs">
+                          Manufacturing
                         </Badge>{" "}
                       </div>{" "}
                     </div>{" "}
@@ -385,9 +382,8 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <Reveal>
                 <ProjectCard
-                  title="Techno-economic Analysis Toolkit"
-                  description="Modeling framework to evaluate district heating scenarios with sensitivity analyses and visual reporting."
-                  href="/thesis"
+                  title="Technoeconomical analysis of Nuclear district heating"
+                  description="A case study of connecting the Forsmark Nuclear Power Plant to Stockholm and Uppsala District heating networks using a moddeling framework to evaluate district heating scenarios with sensitivity analyses and visual reporting."
                   tags={["Python", "Energy Systems", "Modeling"]}
                 />
               </Reveal>

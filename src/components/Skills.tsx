@@ -107,13 +107,15 @@ const Skills = () => {
                 className="flex flex-wrap gap-3"
               >
                 {[
-                  { name: "Excel Advanced", icon: BarChart },
+                  { name: "Excel", icon: BarChart },
                   { name: "PowerBI", icon: BarChart2 },
                   { name: "Git", icon: GitBranch },
                   { name: "AutoCAD", icon: Box },
-                  { name: "Statistical Software", icon: Database },
                   { name: "Jupyter Notebooks", icon: Code },
                   { name: "LaTeX", icon: Cpu },
+                  { name: "SQL", icon: Code },
+                  { name: "Matlab", icon: Code },
+                  { name: "Python", icon: Code },
                 ].map(({ name, icon: Icon }) => (
                   <motion.div key={name} variants={child}>
                     <Badge
